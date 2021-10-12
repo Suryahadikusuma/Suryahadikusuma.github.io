@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: 15px/19px arial sans-serif;
+	background-image: url(bush.png);
+}
+
+#container{
+	margin: auto;
+	width: 915px;
+	background-color: white;
+}
+
+.header{
+	padding: 20px;
+}
+
+.header ul li{
+	 list-style: none;
+	 display: inline-block;
+	 margin-top: 20px;
+	 margin-right: 10px;
+     background-color: silver;
+     border-radius: 0.2rem;
+}
+
+.header a{
+	text-decoration: none;
+	color: grey;
+	padding: 3px;
+	border-radius: 10%;
+	transition: .7s;
+}
+
+.header a:hover{
+	color: white;
+	background-color: blue;
+}
+
+.header a:active{
+	color: white;
+	background-color: lightblue;
+}
+
+.runtext{
+	background-color: orange;
+	margin-top: 10px;
+	padding: 0px;
+	color: white;
+	font-weight: bold;
+}
+.main {
+	padding: 30px;
+	width: 860px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main p{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+.main .penulis a:hover{
+	color: salmon;
+}
+
+.sidebar img{
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+	transition: .7s;
+	box-shadow: 2px 2px 2px grey;
+}
+
+.clear{
+	clear: both;
+}
+
+.footer{
+	height: 70px;
+	background-color: #454545;
+}
+
+.footer p{
+	text-align: center;
+	line-height: 70px;
+	color: #eaeaea;
+}

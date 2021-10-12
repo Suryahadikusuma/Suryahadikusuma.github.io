@@ -1,0 +1,215 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: 15px/19px arial sans-serif;
+	background-image: url(bush.png);
+}
+
+#container{
+	margin: auto;
+	width: 915px;
+	background-color: white;
+}
+
+ol{
+	padding: 25px;
+}
+
+.header{
+	padding: 20px;
+}
+
+.header ul li{
+	 list-style: none;
+	 display: inline-block;
+	 margin-top: 20px;
+	 margin-right: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: grey;
+	padding: 3px;
+	border-radius: 10%;
+	transition: .7s;
+}
+
+.header a:hover{
+	color: white;
+	background-color: blue;
+}
+
+.header a:active{
+	color: white;
+	background-color: lightblue;
+}
+
+.runtext{
+	background-color: orange;
+	margin-top: 10px;
+	padding: 0px;
+	color: white;
+	font-weight: bold;
+}
+
+.heroimg img{
+	height: 380px;
+	width: 915px;
+	border-top: 7px solid grey;
+	border-bottom: 5px solid lightgrey;
+	transition: 1s;
+}
+
+.heroimg img:active{
+	transform: scaleY(1.2);
+}
+
+
+.main {
+	padding: 20px;
+	width: 600px;
+	box-sizing: border-box;
+	float: left;
+}
+
+
+.main .penulis{
+	font-size: 10px;
+}
+
+.main p{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.main .penulis a{
+	text-decoration: none;
+	color: tomato;
+}
+
+.main .penulis a:hover{
+	color: salmon;
+}
+
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 20px;
+	box-sizing: border-box;
+	font: 12px/17px arial;
+	font-style: italic;
+	color: #666665;
+}
+
+.sidebar .judul{
+	padding-bottom: 10px;
+}
+
+.sidebar img{
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+	transition: .7s;
+	box-shadow: 2px 2px 2px grey;
+}
+
+.sidebar img:active{
+	transform: scale(2,2);
+}
+
+.clear{
+	clear: both;
+}
+
+.subscrabe{
+	padding: 20px;
+	padding-left: 70px;
+}
+
+.subscrabe p{
+	width: 390px;
+	color: #585a5c;
+}
+
+.subscrabe .form input{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 20px;
+	width: 250px;
+	background-color: #dfe1e6;
+	border-radius: 30px;
+	padding: 5px;
+}
+
+.form button{
+	padding: 5px;
+	border-radius: 30px;
+	background-color: blue;
+	border: none;
+	box-shadow: 0px 2px 2px black;
+	color: white;
+}
+
+.form button:active{
+	background-color: lightblue;
+	color: #454545;
+}
+
+.footer{
+	height: 70px;
+	background-color: #454545;
+}
+
+.footer p{
+	text-align: center;
+	line-height: 70px;
+	color: #eaeaea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
